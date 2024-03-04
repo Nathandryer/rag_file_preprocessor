@@ -1,6 +1,6 @@
 # Rag File Preprocessor
 
-The Rag File Preprocessor is a Python script for preparing text files for RAG-based information retrieval. It utilizes operatios from the Natural Language Toolkit (NLTK), such as tokenization, part-of-speech tagging, named entity recognition, and lemmatization. The script also offers functionality for extracting and anonymizing PII and phone numbers, ensuring data privacy and compliance.
+This tool preprocesses text-based files for RAG-based information retrieval. It utilizes operatios from the Natural Language Toolkit (NLTK), such as tokenization, part-of-speech tagging, named entity recognition, and lemmatization. The script also offers functionality for extracting and anonymizing PII and phone numbers, ensuring data privacy and compliance.
 
 ## Key Features
 

@@ -28,7 +28,7 @@ pip install nltk
 Clone the repository to your local machine to get started:
 
 ```
-git clone https://github.com/Nathandryer/rag-file-preprocessor.git
+git clone https://github.com/Nathandryer/rag_file_preprocessor.git
 cd text-preprocessing-utility
 ```
 

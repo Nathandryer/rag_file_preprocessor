@@ -1,6 +1,6 @@
 # Rag File Preprocessor
 
-This tool preprocesses text-based files for RAG-based information retrieval. It utilizes operatios from the Natural Language Toolkit (NLTK), such as tokenization, part-of-speech tagging, named entity recognition, and lemmatization. The script also offers functionality for extracting and anonymizing PII and phone numbers, ensuring data privacy and compliance.
+This tool preprocesses text files for RAG-based information retrieval. It utilizes operations from the Natural Language Toolkit (NLTK), such as tokenization, part-of-speech tagging, named entity recognition, and lemmatization. 
 
 ## Key Features
 
@@ -19,28 +19,22 @@ Before you begin, ensure you have the following prerequisites installed on your 
 
 You can install NLTK using pip: 
 
-```
-pip install nltk
-```
+'''pip install nltk'''
 
 ## Installation
 
 Clone the repository to your local machine to get started:
 
-```
-git clone https://github.com/Nathandryer/rag_file_preprocessor.git
-cd text-preprocessing-utility
-```
+'''git clone https://github.com/Nathandryer/rag-file-preprocessor.git
+cd  <project_directory>'''
 
 ## Usage
 
 Run the script using the following command:
 
-```
-python main.py <input_file> --format <output_format> --logging
-```
+'''python main.py <input_file> --format <output_format> --logging'''
 
-Replace `<input_file>` with the path to your text file, and `<output_format>` with `json`, `csv` or `text` depending on your desired output format.
+Replace `<input_file>` with the path to your text file, and `<output_format>` with either `json` or `csv` depending on your desired output format.
 
 ## Contributing
 

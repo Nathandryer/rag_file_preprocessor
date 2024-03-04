@@ -19,20 +19,26 @@ Before you begin, ensure you have the following prerequisites installed on your 
 
 You can install NLTK using pip: 
 
-```pip install nltk```
+```
+pip install nltk
+```
 
 ## Installation
 
 Clone the repository to your local machine to get started:
 
-```git clone https://github.com/Nathandryer/rag-file-preprocessor.git
-cd text-preprocessing-utility```
+```
+git clone https://github.com/Nathandryer/rag-file-preprocessor.git
+cd text-preprocessing-utility
+```
 
 ## Usage
 
 Run the script using the following command:
 
-```python main.py <input_file> --format <output_format> --logging```
+```
+python main.py <input_file> --format <output_format> --logging
+```
 
 Replace `<input_file>` with the path to your text file, and `<output_format>` with either `json` or `csv` depending on your desired output format.
 
